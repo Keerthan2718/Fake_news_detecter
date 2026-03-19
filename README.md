@@ -5,9 +5,13 @@ A real-time web application that uses Artificial Intelligence to verify the auth
 In an era of rapid information spread, distinguishing between fact and fiction is critical. This project leverages Large Language Models (LLMs) to analyze text patterns, source credibility, and logical consistency to provide a probability score of whether a piece of news is "Real" or "Fake."
 
 # Tech Stack
+<br>
 Language: Python
+<br>
 AI Model: Google Gemini 2.5 and 1.5 Flash (via Gemini API)
+<br>
 Web Framework: Streamlit
+<br>
 Library Imports:
  1.import streamlit as st
  2.from google import genai
