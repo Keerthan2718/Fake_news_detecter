@@ -6,16 +6,21 @@ In an era of rapid information spread, distinguishing between fact and fiction i
 
 # Tech Stack
 <br>
-Language: Python
+Language:  Python
 <br>
-AI Model: Google Gemini 2.5 and 1.5 Flash (via Gemini API)
+AI Model:  Google Gemini 2.5 and 1.5 Flash (via Gemini API)
 <br>
-Web Framework: Streamlit
+Web Framework:  Streamlit
 <br>
 Library Imports:
+<br>
  1.import streamlit as st
+ <br>
  2.from google import genai
+ <br>
  3.import datetime
+ <br>
  4.from google.genai import types
+ <br>
 
-Google Search_tool = types.Tool(...):It gives Gemini the ability to search the live internet to verify facts.
+Google Search_tool = types.Tool(...):  It gives Gemini the ability to search the live internet to verify facts.
