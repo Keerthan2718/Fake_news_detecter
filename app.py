@@ -24,8 +24,9 @@ st.title("🛡️ AI Fact-Checker")
 
 user_input = st.text_area("Paste News Here:")
 
-with st.spinner("Searching the web for facts..."):
-    today = datetime.date.today().strftime("%B %d, %Y")
+if st.button("Fact Check"):
+    with st.spinner("Searching the web for facts..."):
+        today = datetime.date.today().strftime("%B %d, %Y")
     
     # 1. Define the Grounding Tool
     # This is the "magic" that stops hallucinations for current events
